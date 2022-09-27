@@ -55,6 +55,14 @@ let slideNext = 0, clientX, imgsrc1, imgsrc2, imgsrc3, imgsrc4, imgsrc5, imgsrc6
 
 // setting the first roadmap element on load
 window.addEventListener('load', () => {
+  console.log('htest elo');
+  console.log('htest elo');
+  console.log('htest elo');
+  console.log('htest elo');
+  console.log('htest elo');
+  console.log('htest elo');
+  console.log('htest elo');
+  console.log('htest elo');
   let imgsrc1 = window.getComputedStyle(imgcontain1, ':after').getPropertyValue('content');
   img.style.cssText = `background-image: ${imgsrc1};  width:100px; height:80px; margin-left:-16px`;
   change(slideNext);
